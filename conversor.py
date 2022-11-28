@@ -1,6 +1,4 @@
-pesos = input('cuantos pesos colombianos tienes?: ')
-pesos = float(pesos)
-valor_dolar = 5000
-dolares = pesos / valor_dolar
-dolares = str(dolares)
-print('Tienes $' + dolares + ' dolares')
+pesos = float(input('cuantos pesos colombianos tienes?: '))
+dollar_value = 5000
+dollars = str(pesos / dollar_value)
+print('Tienes $' + dollars + ' dolares')
